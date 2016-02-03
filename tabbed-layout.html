@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Material Design Lite - Tabbed Layout</title>
+    
+     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css" /> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <style> 
+        body {
+            padding: 2em;
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header">
+        	<div class="mdl-layout__header-row">
+        		<span class="mdl-layout-title">Lancelot Edwards</span>
+        	</div>
+            <div class="mdl-layout__tab-bar">
+                <nav class="mdl-navigation">
+        			<a href="#home" class="mdl-layout__tab is-active">Home</a>
+        			<a href="#about" class="mdl-layout__tab">About Us</a>
+        			<a href="#portfolio" class="mdl-layout__tab">Portfolio</a>
+        			<a href="#contact" class="mdl-layout__tab">Contact Us</a>
+        		</nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Title</span>
+        </div>
+        
+        <main class="mdl-layout__content">
+        <section id="home" class="mdl-layout__tab-panel is-active">Home</section>
+        <section id="about" class="mdl-layout__tab-panel">About Us</section>
+        <section id="portfolio" class="mdl-layout__tab-panel">Portfolio</section>
+        <section id="contact" class="mdl-layout__tab-panel">Contact Us</section>
+        </main>
+    </div>
+
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+    <!-- Internal JS -->
+    <script>
+    
+    </script>
+  </body>
+</html>
